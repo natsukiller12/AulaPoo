@@ -12,12 +12,13 @@ public class ProjetoLivro {
 		l[0]= new Livro("era uma vez","josé da Silva",300,0, false, p[0]);
 		l[1]= new Livro("manoel corno","sala de poo",400,0, false, p[1]);
 		l[2]=new Livro("javali nervoso","corno qualquer",832,0, false, p[0]);
+		
+		l[0].abrir();
+		l[0].folhear(100);
+		l[0].avançaPag();
 		System.out.println(l[0].detalhes());
-		
-		
-		
-		// TODO Auto-generated method stub
-
+		System.out.println(l[1].detalhes());
+		System.out.println(p[0].detalhes());
 	}
 
 }
