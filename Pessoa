@@ -9,6 +9,12 @@ public class Pessoa {
 		this.idade=this.idade++;
 	}
 
+
+	public String detalhes() {
+		return "Pessoa [nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + "]";
+	}
+
+
 	public Pessoa(String nome, int idade, String sexo) {
 		super();
 		this.setNome(nome);
