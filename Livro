@@ -11,7 +11,7 @@ public class Livro implements Publicaçao {
 
 
 	@Override
-	public String toString() {
+	public String detalhes() {
 		return "Livro [titulo=" + titulo + "\n, autor=" + autor + "\n, totPaginas=" +
 	totPaginas + "\n, pagAtual=" + pagAtual
 				+ "\n, aberto=" + aberto + "\n, leitor=" + leitor.getNome() +"\n, sexo=" + leitor.getSexo() + "]";
